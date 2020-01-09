@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+.header{
+    height:150px;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color:#8798ad;
+    display: flex;
+    flex-direction: column;
+}
+
+#titre{
+    width: 98%;
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#desc{
+    width: 97.5%;
+    height: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start; 
+    font-size: 20px;
+}
+
+.slide{
+    height:500px;
+    margin-top:25px;
+}
+
+#bgslide{
+    background-image: url(./img/banniere.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#artitrep{
+    width:96%;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+.art1{
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.art2{
+    width:450px;
+    height:485px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#EBEBEB;
+    margin:10px;
+}
+
+.artitre{
+    width: 90%;
+    height:45px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.artdesc{
+    width: 90%;
+    height:80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-align: left;
+}
+
+.consult{
+    width: 90%;
+    height:65px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background-color:#484e53;
+    width:125px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button:hover{
+    background-color:white;
+    color: #484e53;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #484e53;
+}
+
+#bg1{
+    background-image:url(./img/img1.png);
+    background-size: cover;
+    width: 100%;
+    height:60%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#bg2{
+    background-image:url(./img/img2.png);
+    background-size: cover;
+    width: 100%;
+    height:60%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#bg3{
+    background-image:url(./img/banniere.png);
+    background-size: cover;
+    width: 100%;
+    height:60%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+@media (max-width: 768px){
+
+.art1{
+    flex-direction: column;
+    align-items: center;
+}
+
+.art2{
+    width:98%;
+}
+
+#titre{
+    font-size: 35px;
+}
+
+.slide{
+    height:250px;
+}
+}
+
+@media (max-width: 375px){
+
+    #titre{
+        font-size: 30px;
+}   
+}
